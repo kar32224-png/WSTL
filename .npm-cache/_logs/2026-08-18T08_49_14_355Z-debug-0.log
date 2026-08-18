@@ -1,0 +1,51 @@
+0 verbose cli D:\AI\node.exe D:\AI\node_modules\npm\bin\npm-cli.js
+1 info using npm@11.6.2
+2 info using node@v24.13.0
+3 silly config load:file:D:\AI\node_modules\npm\npmrc
+4 silly config load:file:D:\工作区\faxis-advisory-main\.npmrc
+5 silly config load:file:C:\Users\Administrator\.npmrc
+6 silly config load:file:C:\Users\Administrator\AppData\Roaming\npm\etc\npmrc
+7 verbose title npm view next version
+8 verbose argv "view" "next" "version" "--cache" ".npm-cache"
+9 verbose logfile logs-max:10 dir:D:\工作区\faxis-advisory-main\.npm-cache\_logs\2026-08-18T08_49_14_355Z-
+10 verbose logfile D:\工作区\faxis-advisory-main\.npm-cache\_logs\2026-08-18T08_49_14_355Z-debug-0.log
+11 silly logfile done cleaning log files
+12 http fetch GET https://registry.npmjs.org/next attempt 1 failed with EACCES
+13 http fetch GET https://registry.npmjs.org/next attempt 2 failed with EACCES
+14 http fetch GET https://registry.npmjs.org/next attempt 3 failed with EACCES
+15 verbose type system
+16 verbose stack FetchError: request to https://registry.npmjs.org/next failed, reason: 
+16 verbose stack     at ClientRequest.<anonymous> (D:\AI\node_modules\npm\node_modules\minipass-fetch\lib\index.js:130:14)
+16 verbose stack     at ClientRequest.emit (node:events:508:28)
+16 verbose stack     at emitErrorEvent (node:_http_client:108:11)
+16 verbose stack     at _destroy (node:_http_client:962:9)
+16 verbose stack     at onSocketNT (node:_http_client:982:5)
+16 verbose stack     at process.processTicksAndRejections (node:internal/process/task_queues:90:21)
+17 error code EACCES
+18 error errno EACCES
+19 error FetchError: request to https://registry.npmjs.org/next failed, reason: 
+19 error     at ClientRequest.<anonymous> (D:\AI\node_modules\npm\node_modules\minipass-fetch\lib\index.js:130:14)
+19 error     at ClientRequest.emit (node:events:508:28)
+19 error     at emitErrorEvent (node:_http_client:108:11)
+19 error     at _destroy (node:_http_client:962:9)
+19 error     at onSocketNT (node:_http_client:982:5)
+19 error     at process.processTicksAndRejections (node:internal/process/task_queues:90:21) {
+19 error   code: 'EACCES',
+19 error   errno: 'EACCES',
+19 error   type: 'system'
+19 error }
+20 error
+20 error The operation was rejected by your operating system.
+20 error It's possible that the file was already in use (by a text editor or antivirus),
+20 error or that you lack permissions to access it.
+20 error
+20 error If you believe this might be a permissions issue, please double-check the
+20 error permissions of the file and its containing directories, or try running
+20 error the command again as root/Administrator.
+21 verbose cwd D:\工作区\faxis-advisory-main
+22 verbose os Windows_NT 10.0.26100
+23 verbose node v24.13.0
+24 verbose npm  v11.6.2
+25 verbose exit 1
+26 verbose code 1
+27 error A complete log of this run can be found in: D:\工作区\faxis-advisory-main\.npm-cache\_logs\2026-08-18T08_49_14_355Z-debug-0.log

@@ -1,0 +1,18 @@
+0 verbose cli D:\AI\node.exe D:\AI\node_modules\npm\bin\npm-cli.js
+1 info using npm@11.6.2
+2 info using node@v24.13.0
+3 silly config load:file:D:\AI\node_modules\npm\npmrc
+4 silly config load:file:D:\工作区\faxis-advisory-main\.npmrc
+5 silly config load:file:C:\Users\Administrator\.npmrc
+6 silly config load:file:C:\Users\Administrator\AppData\Roaming\npm\etc\npmrc
+7 verbose title npm install next@16.2.12
+8 verbose argv "install" "next@16.2.12" "--save" "--cache" ".npm-cache" "--prefer-offline"
+9 verbose logfile logs-max:10 dir:D:\工作区\faxis-advisory-main\.npm-cache\_logs\2026-08-18T08_48_26_424Z-
+10 verbose logfile D:\工作区\faxis-advisory-main\.npm-cache\_logs\2026-08-18T08_48_26_424Z-debug-0.log
+11 silly logfile done cleaning log files
+12 silly packumentCache heap:4496293888 maxSize:1124073472 maxEntrySize:562036736
+13 silly idealTree buildDeps
+14 silly fetch manifest next@16.2.12
+15 silly packumentCache full:https://registry.npmjs.org/next cache-miss
+16 http fetch GET https://registry.npmjs.org/next attempt 1 failed with EACCES
+17 http fetch GET https://registry.npmjs.org/next attempt 2 failed with EACCES
